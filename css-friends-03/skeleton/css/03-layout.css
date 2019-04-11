@@ -1,0 +1,29 @@
+/* PHASE 3: Layout */
+
+.content {
+  /* align-content: center; */
+  min-height: 200px;
+  background-color: inherit;
+  /* float: inherit; */
+  display: flex;
+  flex-direction: row;
+}
+
+.content-sidebar {
+  background-color: inherit;
+  min-height: 200px;
+  padding: 20px;
+  /* float: left; */
+}
+
+.content-main {
+  background-color: inherit;
+  min-height: 200px;
+  padding: 20px;
+  /* float: right; */
+}
+
+body, section {
+  display: block;
+  align-content: center;
+}
